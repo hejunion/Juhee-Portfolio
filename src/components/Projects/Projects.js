@@ -9,6 +9,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import JuheePortfolio from "../../Assets/Projects/Juhee-Portfolio.png";
 
 function Projects() {
   return (
@@ -22,6 +23,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={JuheePortfolio}
+              isBlog={false}
+              title="Juhee Portfolio"
+              description="Project for My Online Portfolio"
+              link="https://github.com/hejunion/Juhee-Portfolio"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
