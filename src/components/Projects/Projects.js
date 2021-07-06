@@ -10,6 +10,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import JuheePortfolio from "../../Assets/Projects/Juhee-Portfolio.PNG";
+import DemoSquareUpAPI from "../../Assets/Projects/DemoSquareUpAPI.PNG";
+
 
 function Projects() {
   return (
@@ -24,6 +26,16 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={DemoSquareUpAPI}
+              isBlog={false}
+              title="The Square Unboxed Hackathon 2021"
+              description="A Demo Project MochaUp Online Shop to integrate with Square Payment API"
+              link="https://angry-stonebraker-e885b7.netlify.app/"
+            />
+          </Col>
+
+
             <ProjectCard
               imgPath={JuheePortfolio}
               isBlog={false}
