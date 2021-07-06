@@ -31,7 +31,7 @@ function Projects() {
               isBlog={false}
               title="The Square Unboxed Hackathon 2021"
               description="A Demo Project MochaUp Online Shop to integrate with Square Payment API"
-              link="https://angry-stonebraker-e885b7.netlify.app/"
+              link="https://square-stonebraker-e885b7.netlify.app/"
             />
         </Col>
 
