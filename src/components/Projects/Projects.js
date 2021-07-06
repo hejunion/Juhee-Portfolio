@@ -25,7 +25,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
           <ProjectCard
               imgPath={DemoSquareUpAPI}
               isBlog={false}
@@ -33,9 +33,9 @@ function Projects() {
               description="A Demo Project MochaUp Online Shop to integrate with Square Payment API"
               link="https://angry-stonebraker-e885b7.netlify.app/"
             />
-          </Col>
+        </Col>
 
-
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={JuheePortfolio}
               isBlog={false}
