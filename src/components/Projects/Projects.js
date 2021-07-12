@@ -41,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Juhee Portfolio"
               description="Project for My Online Portfolio"
-              link="https://github.com/hejunion/Juhee-Portfolio"
+              link="https://juhee.dataquorums.com"
             />
           </Col>
 
