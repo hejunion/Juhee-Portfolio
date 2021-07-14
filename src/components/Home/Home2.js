@@ -38,7 +38,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              While spending slice of time on promoting code, I also apply my passion for practicing
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js ans Next.js</b>
+                <b className="purple"> React.js ans Next.js, visualizing my work.</b>
               </i>
             </p>
           </Col>
