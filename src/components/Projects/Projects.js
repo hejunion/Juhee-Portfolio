@@ -7,10 +7,10 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import JuheePortfolio from "../../Assets/Projects/Juhee-Portfolio.PNG";
 import DemoSquareUpAPI from "../../Assets/Projects/DemoSquareUpAPI.PNG";
+import FoodFusionScreen from "../../Assets/Projects/Food-Fusion.png";
 
 
 function Projects() {
@@ -25,6 +25,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={FoodFusionScreen}
+              isBlog={false}
+              title="Food Fusion"
+              description="A sharing site for Food Lovers"
+              link="http://foodfusion2022.herokuapp.com"
+            />
+        </Col>
+
           <Col md={4} className="project-card">
           <ProjectCard
               imgPath={DemoSquareUpAPI}
