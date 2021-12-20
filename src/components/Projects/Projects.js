@@ -29,7 +29,7 @@ function Projects() {
           <ProjectCard
               imgPath={FoodFusionScreen}
               isBlog={false}
-              title="Food Fusion"
+              title="Food Fusion 2022"
               description="A sharing site for Food Lovers"
               link="http://foodfusion2022.herokuapp.com"
             />
