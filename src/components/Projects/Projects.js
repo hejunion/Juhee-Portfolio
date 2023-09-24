@@ -11,7 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import JuheePortfolio from "../../Assets/Projects/Juhee-Portfolio.PNG";
 import DemoSquareUpAPI from "../../Assets/Projects/DemoSquareUpAPI.PNG";
 import FoodFusionScreen from "../../Assets/Projects/Food-Fusion.png";
-
+import SimpleBlockChain from "../../Assets/Projects/mining-network.png";
 
 function Projects() {
   return (
@@ -25,6 +25,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={SimpleBlockChain}
+              isBlog={false}
+              title="Simple Block Chain 2023"
+              description="POC of A Simple Block Chain"
+              link="https://github.com/LogiX-Lab/kryptochain/blob/dev-6-simple-blockchain-docs/documents/architecture.md"
+            />
+        </Col>
         <Col md={4} className="project-card">
           <ProjectCard
               imgPath={FoodFusionScreen}
